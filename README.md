@@ -28,9 +28,24 @@ KeySystem requires [Node.js](https://nodejs.org/) v17+ to run.
 - Voila!
 
 ```sh
+git clone git@github.com:Opia12345/Komponent.git
 cd Komponent
 npm i
 npm run dev
+```
+
+### Contribution
+- Switch to the feat/testing branch.
+- Make your changes on that branch.
+- Push to the remote origin feat/application.
+- Create a Pull Request.
+- Wait for approval.
+
+```sh
+git checkout feat/testing
+git add .
+git commit -m 'feat: YOUR FEATURE HERE...'
+git push origin feat/application
 ```
 
 > [!IMPORTANT]
