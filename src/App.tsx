@@ -1,11 +1,11 @@
 import "./App.css";
-import Navbar from "./Components/Navbar/Navbar";
+import Header from "./Components/Header/Header";
 
 function App() {
   return (
     <>
-      <body className="bg-black">
-        <Navbar />
+      <body className="">
+        <Header />
       </body>
     </>
   );
